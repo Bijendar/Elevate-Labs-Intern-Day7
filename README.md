@@ -32,3 +32,5 @@ docker run -d --name=netdata -p 19999:19999 \
   --cap-add SYS_PTRACE --security-opt apparmor=unconfined \
   netdata/netdata
 
+### Step 2: Open this in your browser: http://localhost:19999
+
